@@ -19,12 +19,18 @@ window.addEventListener('click', function (event) {
         counter.innerText = ++counter.innerText
     }
 
+    // Проверяем является ли элемент по которому был совершен клик кнопкой минус
     if (event.target.dataset.action === 'minus') {
+
 
         // Проверка счетчика больше
         if (parseInt(counter.innerText) > 1) {
             // Изменяем текст в счетчике уменьшая на 1 
             counter.innerText = --counter.innerText
+        } else if (event.target.closest('.cart-wrapper') && parseInt(counter.innerText) === 1) {
+            console.log('IN CART!!!');
+            // remove product in cart
+            event.target.closest('.cart-item').remove()
         }
     }
 })

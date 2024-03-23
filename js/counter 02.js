@@ -31,6 +31,9 @@ window.addEventListener('click', function (event) {
             console.log('IN CART!!!');
             // remove product in cart
             event.target.closest('.cart-item').remove()
+
+            // Отображение статуса корзины полная или пустая
+            toggleCardStatus()
         }
     }
 })

@@ -1,11 +1,17 @@
 // Добавляем прослушку на всем окне
 window.addEventListener('click', function (event) {
-    // Находим обертку счетчика
-    const counterWrapper = event.target.closest('.counter-wrapper')
 
-    // Находим див с числом счетчика
-    const counter = counterWrapper.querySelector('[data-counter]')
+    // Обьявляем переменную для счетчика
+    let counter;
 
+    // проверка клик строго по кнопкам
+    if (event.target.dataset.action === 'plus' || event.target.dataset.action === 'minus') {
+        // Находим обертку счетчика
+        const counterWrapper = event.target.closest('.counter-wrapper')
+
+        // Находим див с числом счетчика
+        counter = counterWrapper.querySelector('[data-counter]')
+    }
 
 
     if (event.target.dataset.action === 'plus') {

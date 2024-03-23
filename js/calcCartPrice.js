@@ -1,4 +1,4 @@
-function calcCartPrice(){
+function calcCartPriceAndDelivery(){
 
     const cartWrapper = document.querySelector('.cart-wrapper')
     const priceElements = cartWrapper.querySelectorAll('.price__currency')

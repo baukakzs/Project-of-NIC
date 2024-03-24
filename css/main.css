@@ -1,6 +1,6 @@
 body,
 html {
-	background-color: #F8F9F9;
+	background-color: #FFFFCC;
 	height: 100%;
 }
 
@@ -80,6 +80,12 @@ h4 {
 
 .items.items--small .items__current {
 	width: 30px;
+}
+
+
+
+.card-body{
+	background: #FFFF1018	;
 }
 
 .price {
@@ -182,7 +188,7 @@ footer {
 	width: 100%;
 	float: left;
 	padding: 1%;
-	background-color: wheat;
+	background-color: #FFF85840;
 	border-top: 2px solid silver;
 	margin-top: 10px;
 }

@@ -84,8 +84,8 @@ h4 {
 
 
 
-.card-body{
-	background: #FFFF1018	;
+.card-body {
+	background: #FFFF1018;
 }
 
 .price {
@@ -213,4 +213,18 @@ footer #rights {
 	width: 50%;
 	text-align: right;
 	font-size: 1.0em;
+	padding: 20px;
+}
+
+footer #contact {
+	float: right;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+
+footer #contact img {
+
+	width: 25px;
+	height: 25px;
+	margin-top: 5px;
 }

@@ -177,3 +177,34 @@ h4 {
 .none {
 	display: none;
 }
+
+footer {
+	width: 100%;
+	float: left;
+	padding: 1%;
+	background-color: wheat;
+	border-top: 2px solid silver;
+	margin-top: 10px;
+}
+
+footer #social {
+	margin-right: 50px;
+	text-align: center;
+	width: 50%;
+}
+
+footer #social img {
+	width: 30px ;
+	height: 30px;
+	float: left;
+	margin-right: 5px ;
+	margin-top: 10px;
+	
+}
+
+footer #rights {
+	float: left;
+	width: 50%;
+	text-align: right;
+	font-size: 1.0em;
+}

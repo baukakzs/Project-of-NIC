@@ -1,6 +1,6 @@
 body,
 html {
-	background-color: #FFFFCC;
+	background-color: #ebebeb;
 	height: 100%;
 }
 
@@ -188,7 +188,7 @@ footer {
 	width: 100%;
 	float: left;
 	padding: 1%;
-	background-color: #FFF85840;
+	background-color: #212529;
 	border-top: 2px solid silver;
 	margin-top: 10px;
 }

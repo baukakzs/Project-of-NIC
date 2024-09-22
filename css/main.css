@@ -210,6 +210,7 @@ footer #social img {
 
 footer #rights {
 	float: left;
+	color: #ebebeb;
 	width: 50%;
 	text-align: right;
 	font-size: 1.0em;
@@ -217,6 +218,7 @@ footer #rights {
 }
 
 footer #contact {
+	color: #ebebeb;
 	float: right;
 	margin-right: 40px;
 	margin-top: 10px;
